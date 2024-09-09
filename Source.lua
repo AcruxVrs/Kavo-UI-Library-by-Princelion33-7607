@@ -1,6 +1,6 @@
 -- Kavo UI Library by Princelion33#7607
 -- Added Auto save for toggles
--- To use toggle remembering do Kavo:Init() at the end of script 
+-- To use toggle remembering do Kavo:Init() at the end of script (all controls must be loaded to be able to set them)
 local Kavo = {
     flags = {},
     SaveCfg = true, -- enables or disables remembering
