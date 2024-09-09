@@ -273,7 +273,8 @@ function Kavo.CreateLib(kavName, themeList)
     local infoContainer = Instance.new("Frame")
 
     local blurFrame = Instance.new("Frame")
-
+	
+Kavo:DraggingEnabled(title, Main)
     Kavo:DraggingEnabled(MainHeader, Main)
 
     blurFrame.Name = "blurFrame"
