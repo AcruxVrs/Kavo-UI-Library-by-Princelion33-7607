@@ -3,7 +3,7 @@
 -- To use toggle remembering do Kavo:Init() at the end of script 
 local Kavo = {
     flags = {},
-    SaveCfg = true,
+    SaveCfg = true, -- enables or disables remembering
     Folder = nil
 }
 
@@ -159,7 +159,7 @@ function Kavo.CreateLib(kavName, themeList)
     Folder = "Tech"
     --warn("Save value: " .. tostring(Save))
     Kavo.Folder = "Tech"
-    Kavo.SaveCfg = true
+ --   Kavo.SaveCfg = true
 
     if Kavo.SaveCfg then
         if not isfolder(Kavo.Folder) then
